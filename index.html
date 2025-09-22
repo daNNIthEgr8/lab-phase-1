@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Product Launch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <header class="fixed top-0 left-0 w-full bg-gray-800 shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-indigo-400">BrandX</h1>
+      <nav class="space-x-6">
+        <a href="#features" class="hover:text-indigo-300 transition">Features</a>
+        <a href="#about" class="hover:text-indigo-300 transition">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-24 bg-gradient-to-br from-gray-900 via-gray-800 to-black min-h-screen flex flex-col items-center text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <img src="https://source.unsplash.com/800x500/?tech,gadget" alt="Product"
+           class="mx-auto rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500">
+      <h2 class="text-4xl md:text-6xl font-bold mt-8">Revolutionize Your World</h2>
+      <p class="mt-4 text-gray-300 text-lg">Introducing the ultimate smart device to simplify your life and boost productivity.</p>
+      <a href="#features"
+         class="mt-8 inline-block bg-indigo-500 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-indigo-600 transition">
+         Explore Features
+      </a>
+      <a href="landing.html" 
+   class="mt-8 inline-block bg-indigo-500 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-indigo-600 transition">
+   Sign Up for Updates
+</a>
+
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-20 container mx-auto px-6">
+    <h3 class="text-3xl font-bold text-center mb-12">Amazing Features</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Feature Card 1 -->
+      <a href="feature1.html" class="feature-card group">
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:bg-indigo-500 hover:scale-105 transition-transform duration-500">
+          <img src="https://source.unsplash.com/200x200/?ai,robot" alt="Feature 1" class="rounded-xl mb-4 group-hover:rotate-6 transition-transform duration-500">
+          <h4 class="text-xl font-semibold">AI-Powered Performance</h4>
+          <p class="text-gray-300 mt-2">Smart algorithms adapt to your needs for unmatched efficiency.</p>
+        </div>
+      </a>
+      <!-- Feature Card 2 -->
+      <a href="feature2.html" class="feature-card group">
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:bg-indigo-500 hover:scale-105 transition-transform duration-500">
+          <img src="https://source.unsplash.com/200x200/?security,lock" alt="Feature 2" class="rounded-xl mb-4 group-hover:rotate-6 transition-transform duration-500">
+          <h4 class="text-xl font-semibold">Top-Notch Security</h4>
+          <p class="text-gray-300 mt-2">Your data stays safe with advanced encryption and privacy controls.</p>
+        </div>
+      </a>
+      <!-- Feature Card 3 -->
+      <a href="feature3.html" class="feature-card group">
+        <div class="bg-gray-800 rounded-2xl p-6 shadow-lg hover:bg-indigo-500 hover:scale-105 transition-transform duration-500">
+          <img src="https://source.unsplash.com/200x200/?design,innovation" alt="Feature 3" class="rounded-xl mb-4 group-hover:rotate-6 transition-transform duration-500">
+          <h4 class="text-xl font-semibold">Sleek Modern Design</h4>
+          <p class="text-gray-300 mt-2">A stylish product built to complement your lifestyle.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center py-6 mt-12">
+    <p class="text-gray-400">&copy; 2025 BrandX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
